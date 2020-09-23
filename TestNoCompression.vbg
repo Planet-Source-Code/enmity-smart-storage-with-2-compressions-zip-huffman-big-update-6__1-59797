@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=NoCompression\Test\prjTest.vbp
+Project=NoCompression\SmartStorage.vbp

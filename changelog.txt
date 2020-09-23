@@ -1,0 +1,12 @@
+
+#update 1: now with compression and better sample, fixed some bugs and improve error handling
+
+#update 2: added huffman compression, CRC, GetItemText()/GetItemPicture() functions, fixed bugs in VaccumStorage.
+
+#update 3: added support for byte array(such as DIBs)/text etc. And ItemData for extract info.
+
+#update 4: added FilterItems() function for quick searcing.
+
+#update 5: added ReadItemContentChunk(), chunk by chunk to read a file, rather than read the whole file at once. added Version support. Improved OpenStorage result. Now with full DIBs support, from an image to store in storage, then from storage back to be an image!
+
+#update 6: fixed bug in ReadItemContentChunk() due to changed with serialized section chunk.
